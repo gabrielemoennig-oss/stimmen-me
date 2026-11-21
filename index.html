@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stimmen.me – raum für reduktion</title>
+  <style>
+    :root {
+      --bg-page: #dbe5fa;
+      --text-main: #262326;
+      --color-name: #106644;
+      --color-brand: #8c0dc2;
+      --color-sub: #a2b752;
+      --line: rgba(38, 35, 38, 0.16);
+      --sub-pill-bg: rgba(38, 35, 38, 0.88);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      padding: 4.5rem 0 2.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .author-line {
+      margin: 0 0 0.25rem;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--color-name);
+    }
+
+    .brand-line {
+      margin: 0 0 0.65rem;
+      font-size: 1.65rem;
+      font-weight: 600;
+      line-height: 1.25;
+      color: var(--color-brand);
+    }
+
+    .sub-line-wrap {
+      margin: 0 0 1.5rem;
+    }
+
+    .sub-line {
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 0.95rem;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--color-sub);
+      background-color: var(--sub-pill-bg);
+      padding: 0.2rem 0.6rem;
+      border-radius: 2px;
+    }
+
+    .build-status {
+      margin: 0;
+      padding-left: 0.85rem;
+      border-left: 2px solid var(--text-main);
+      font-size: 0.9rem;
+      color: var(--text-main);
+    }
+
+    main {
+      padding: 3rem 0 3.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h1, h2 {
+      margin: 0 0 1.2rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text-main);
+    }
+
+    p {
+      margin: 0 0 1.2rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .poetry-line {
+      margin: 0 0 0.35rem;
+    }
+
+    .poetry-gap {
+      margin-bottom: 1.2rem;
+    }
+
+    ul.clean-list {
+      list-style: none;
+      margin: 0 0 1.4rem;
+      padding: 0;
+    }
+
+    ul.clean-list li {
+      margin: 0 0 0.35rem;
+    }
+
+    .signature-end {
+      margin-top: 1.2rem;
+    }
+
+    footer {
+      padding: 0 0 4rem;
+    }
+
+    .footer-inner {
+      padding-top: 2rem;
+      border-top: 1px solid var(--line);
+      font-size: 0.85rem;
+      color: var(--text-main);
+    }
+
+    details {
+      margin-bottom: 0.9rem;
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 0.2rem 0;
+      font-weight: 500;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::before {
+      content: "+ ";
+    }
+
+    details[open] summary::before {
+      content: "– ";
+    }
+
+    .legal-content {
+      padding: 0.8rem 0 0.4rem 0.9rem;
+      line-height: 1.6;
+    }
+
+    .legal-content p {
+      margin-bottom: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="author-line">gabriele elisabeth moennig</p>
+      <p class="brand-line">stimmen.me</p>
+      <div class="sub-line-wrap">
+        <span class="sub-line">raum für reduktion</span>
+      </div>
+      <p class="build-status">hinweis: diese webseite befindet sich im aufbau.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section aria-label="einstieg">
+        <p class="poetry-line poetry-gap">außen leiser. dann stimmt es.</p>
+
+        <p>es gibt zeiten, in denen nicht etwas fehlt, sondern zu viel da ist.<br>
+        zu viele erwartungen, zu viele meinungen, zu viele stimmen, die nicht die eigenen sind.</p>
+
+        <p class="poetry-line">stimmen.me ist ein ort, an dem es leiser werden darf. nicht, um etwas zu erreichen,</p>
+        <p class="poetry-line poetry-gap">sondern um wieder zu hören, was ohnehin da ist:</p>
+
+        <p class="poetry-line">der eigene takt,</p>
+        <p class="poetry-line">die eigene stimme,</p>
+        <p class="poetry-line">das, was für dich stimmt.</p>
+      </section>
+
+      <section aria-labelledby="wie-ich-arbeite">
+        <h2 id="wie-ich-arbeite">wie ich arbeite</h2>
+        <p>nichts wird hinzugefügt. es geht um reduktion statt addition, um werkzeuge, die lesbar machen, was schon da, aber leise war. niemand steht über oder unter dir, es gibt kein höher, schneller, weiter. und es gibt keinen druck, auch nicht den, etwas finden zu müssen.</p>
+      </section>
+
+      <section aria-labelledby="was-du-bald-findest">
+        <h2 id="was-du-bald-findest">was du bald hier finden wirst</h2>
+        <ul class="clean-list">
+          <li>– bücher und hörbücher</li>
+          <li>– systemische werkzeuge zum selbstbeobachten,</li>
+          <li>– nach und nach weitere angebote</li>
+        </ul>
+        <p>stimmen.me ist keine therapie, kein coaching und keine spiritualität. die werkzeuge sind beiwerk und ersetzen keine ärztliche oder therapeutische behandlung.</p>
+        <p class="signature-end">gabriele elisabeth mönnig</p>
+      </section>
+
+      <section aria-labelledby="ueber-mich">
+        <h2 id="ueber-mich">über mich</h2>
+
+        <p>ich bin gabriele elisabeth mönnig, jahrgang 1976, und lebe in hamburg.</p>
+
+        <p>lange hatte ich keine eigenen grenzen, weil sie mir von außen vorgegeben wurden – erst im umfeld, in dem ich aufgewachsen bin, später in rollen, in denen man einfach funktioniert. über 25 jahre habe ich in der verwaltung gearbeitet, in kommune, beschaffung und koordination, und dort beobachtet, wie systeme laufen: abläufe, zuständigkeiten, regeln.</p>
+
+        <p>mit über 40 habe ich begonnen, das alles zu hinterfragen und aus dem bisherigen umfeld auszusteigen. lange hatte ich antworten in deutungen und konzepten von außen gesucht. irgendwann fiel mir auf: was bei mir wirkte, hing nicht davon ab, woran ich glaube, sondern davon, wie ein system aufgebaut ist und wo seine grenzen liegen. seitdem lasse ich esoterische deutungen weg und halte mich an das, was sich beobachten und ordnen lässt.</p>
+
+        <p>ich habe begonnen, meinen eigenen weg biografisch aufzuarbeiten und darüber bücher zu schreiben. an den brüchen, an denen anpassen und weiteres suchen nicht mehr reichten, haben sich daraus meine eigenen werkzeuge entwickelt: nicht mehr nach fertigen antworten zu suchen, sondern eigene muster zu erkennen, neue grenzen zu ziehen und zu beobachten, was sich verändert.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <details>
+          <summary>impressum</summary>
+          <div class="legal-content">
+            <p><strong>angaben gemäß § 5 ddg</strong><br>
+            gabriele elisabeth mönnig<br>
+            c/o block services<br>
+            stuttgarter str. 106<br>
+            70736 fellbach</p>
+
+            <p><strong>kontakt</strong><br>
+            e-mail: raum@stimmen.me<br>
+            telefon: 015679842451</p>
+
+            <p><strong>verantwortlich für den inhalt nach § 18 abs. 2 mstv</strong><br>
+            gabriele elisabeth mönnig<br>
+            c/o block services<br>
+            stuttgarter str. 106<br>
+            70736 fellbach</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>datenschutz</summary>
+          <div class="legal-content">
+            <p><strong>1. grundsatz</strong><br>
+            diese webseite verwendet keine cookies, keine analyse- oder tracking-dienste und lädt keine externen schriftarten oder skripte von drittanbietern nach.</p>
+
+            <p><strong>2. hosting über github pages</strong><br>
+            diese seite wird über github pages (github inc., 88 colin p kelly jr st, san francisco, ca 94107, usa) bereitgestellt. beim aufruf der seite erfasst der server technisch bedingt verbindungsdaten (insbesondere deine ip-adresse, datum und uhrzeit des zugriffs sowie browserinformationen) in server-logfiles, um die auslieferung und sicherheit der webseite zu gewährleisten. rechtsgrundlage ist art. 6 abs. 1 lit. f dsgvo.</p>
+
+            <p><strong>3. kontaktaufnahme</strong><br>
+            wenn du per e-mail (raum@stimmen.me) oder telefon kontakt aufnimmst, werden deine angaben ausschließlich zur bearbeitung der anfrage verwendet und nicht an dritte weitergegeben.</p>
+
+            <p><strong>4. deine rechte</strong><br>
+            du hast im rahmen der gesetzlichen vorgaben das recht auf auskunft, berichtigung, löschung oder einschränkung der verarbeitung deiner personenbezogenen daten. ansprechpartnerin ist die im impressum genannte person.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
